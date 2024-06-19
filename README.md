@@ -23,11 +23,15 @@ Create empty .env file
 
 Afterward copy and paste the variables from here: https://t.ly/wGlVw
 ```bash
-echo #ENV Variables > .env
+echo #ENV > .env
 ```
 In the .env file, change line 12 to the following:
 ```bash
 DB_HOST=db
+```
+For demo purposes, either create an empty TicketCollector.xml file or get it from the server
+```bash
+echo > TicketCollector.xml
 ```
 Build the docker image
 ```bash
@@ -60,8 +64,7 @@ Containers -> [Running Container Name] -> [name]/laravel:[Version] -> Exec
 ```
 Migrate the DB
 ```bash
-php artisan migrate
-```
+no```
 Finish the setup with the follwing snippet
 ```bash
 npm install && npm run dev
