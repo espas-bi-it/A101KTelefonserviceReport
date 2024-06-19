@@ -6,17 +6,16 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
+        "binarytorch/larecipe": "^2.7",
         "guzzlehttp/guzzle": "^7.2",
         "kyslik/column-sortable": "^6.5",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.4",
-
         "seblhaire/daterangepickerhelper": "^2.4",
         "yajra/laravel-datatables": "^10.0",
         "yajra/laravel-datatables-oracle": "*"
-
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
