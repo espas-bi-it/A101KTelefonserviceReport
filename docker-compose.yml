@@ -1,0 +1,24 @@
+services:
+    db: 
+        image: mysql:latest
+        environment:
+        - MYSQL_DATABASE=laravel_call_accounting
+        - MYSQL_ROOT_PASSWORD=root
+        - MYSQL_ROOT_PASSWORD=
+        - MYSQL_ALLOW_EMPTY_PASSWORD=1
+        volumes:
+        - "./db:/docker-entrypoint-initdb.d" # sync persistent sql files with container
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        ports:
+        - 8001:80
+        environment:
+        - PMA_HOST=db
+        - PMA_PORT=3306
+    php:
+        image: demo/laravel:0.4
+        ports:  
+            - 8000:80
+        environment:
+        - PMA_HOST=db
+        - PMA_PORT=3306
