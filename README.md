@@ -74,6 +74,11 @@ You can reach the homepage through the following link
 http://localhost:8000/
 ```
 
+**To stop the container, press CTRL + C inside CMD and then enter the following snippet**
+```bash
+docker compose down
+```
+
 ## Known Bugs
 
 - Migrate doesn't include the column "configs"
