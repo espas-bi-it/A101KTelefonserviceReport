@@ -64,7 +64,8 @@ Containers -> [Running Container Name] -> [name]/laravel:[Version] -> Exec
 ```
 Migrate the DB
 ```bash
-no```
+php artisan migrate
+```
 Finish the setup with the follwing snippet
 ```bash
 npm install && npm run dev
