@@ -1,5 +1,5 @@
 
-# AK101 Telefonservice, Docker Build
+# Telefonservice, Docker Build
 Docker build for future CI/CD setups.
 
 
