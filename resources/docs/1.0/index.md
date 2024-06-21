@@ -2,3 +2,6 @@
     - [Overview](/{{route}}/{{version}}/overview)
     - [Datatable](/{{route}}/{{version}}/datatable)
     - [Charts](/{{route}}/{{version}}/charts)
+    - [Blade Templates](/{{route}}/{{version}}/views/bladetemplates)
+    - [Layouts](/{{route}}/{{version}}/views/layouts)
+    
