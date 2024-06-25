@@ -26,9 +26,10 @@ ___
 The View is responsible for displaying the data to the user. It contains the presentation logic and is typically written in HTML and Blade, Laravel's templating engine. Views are stored in the resources/views directory.
 
 **Key Features**
-- Blade templates
+- [Blade Templates](views/bladetemplates)
 - Components and slots
-- Layouts
+- [Layouts](views/layouts)
+
 ___
 
 ### Controller
